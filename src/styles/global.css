@@ -36,8 +36,8 @@
   --color-text-muted: rgb(255 255 255 / 0.6);
 
   /* Typography */
-  --font-family-sans: "Inter", sans-serif;
-  --font-family-display: "Space Grotesk", sans-serif;
+  --font-family-sans: "Inter Variable", sans-serif;
+  --font-family-display: "Space Grotesk Variable", sans-serif;
   --font-family-mono: "JetBrains Mono", monospace;
 
   /* Shadows */
