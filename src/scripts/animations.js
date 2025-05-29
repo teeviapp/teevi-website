@@ -5,7 +5,6 @@ class TeeviAnimations {
   }
 
   init() {
-    this.setupSmoothScrolling()
     this.setupParallaxEffect()
     this.createParticles()
     this.setupIntersectionObserver()
