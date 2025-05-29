@@ -9,7 +9,7 @@ const GuideStepCard = ({ step }: { step: GuideStep }) => {
   return (
     <article className="relative pl-12" data-animate>
       <span
-        className="absolute -left-4 -top-4 text-6xl font-bold text-primary-500/15 font-display leading-none z-0"
+        className="absolute -left-4 -top-4 text-6xl sm:text-6xl font-bold text-primary-500/15 font-display leading-none z-0"
         aria-hidden="true">
         {step.number}
       </span>
@@ -64,7 +64,6 @@ const GuideSection = () => {
       steps: [
         "Utilizza la funzione di ricerca per trovare i tuoi spettacoli preferiti",
         "Esplora la Home per scoprire contenuti consigliati dalle estensioni",
-        "Crea le tue estensioni con il kit di sviluppo open source",
       ],
     },
   ]
@@ -74,7 +73,7 @@ const GuideSection = () => {
       <div className="container mx-auto px-4 max-w-4xl">
         <h2
           id="guide-title"
-          className="text-4xl font-bold text-text-primary text-center mb-10 font-display relative">
+          className="text-3xl sm:text-4xl font-bold text-text-primary text-center mb-10 font-display relative">
           Guida Rapida
           <span
             className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-gradient-to-r from-primary-500 to-accent-500 rounded"

@@ -11,29 +11,6 @@ class TeeviAnimations {
     this.setupIntersectionObserver()
   }
 
-  setupSmoothScrolling() {
-    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-      anchor.addEventListener("click", (e) => {
-        e.preventDefault()
-
-        const targetId = anchor.getAttribute("href")
-        if (targetId === "#" || !targetId) return
-
-        const targetElement = document.querySelector(targetId)
-        if (targetElement) {
-          const headerOffset = 80
-          const elementPosition = targetElement.offsetTop
-          const offsetPosition = elementPosition - headerOffset
-
-          window.scrollTo({
-            top: offsetPosition,
-            behavior: "smooth",
-          })
-        }
-      })
-    })
-  }
-
   setupParallaxEffect() {
     const parallaxElements = document.querySelectorAll(".blob")
     let ticking = false

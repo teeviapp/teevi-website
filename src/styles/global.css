@@ -144,7 +144,7 @@
 /* Global styles */
 html,
 body {
-  @apply m-0 w-full min-h-screen font-sans antialiased;
+  @apply m-0 w-full min-h-screen font-sans antialiased scroll-smooth;
   /* Aggiungiamo padding-top:env(safe-area-inset-top) per gestire l'area di status bar su iOS */
   padding-top: env(safe-area-inset-top);
 }

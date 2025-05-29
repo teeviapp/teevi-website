@@ -47,6 +47,16 @@ const NavigationHeader = () => {
               </a>
 
               <a
+                href="#developer"
+                className="text-text-primary font-medium relative py-2 font-display transition-all duration-300 hover:text-primary-400 hover:-translate-y-1 group focus:outline-none focus:ring-2 focus:ring-primary-500/50 rounded">
+                Sviluppa
+                <span
+                  className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-400 rounded transition-all duration-300 group-hover:w-full"
+                  aria-hidden="true"
+                />
+              </a>
+
+              <a
                 href="https://github.com/teeviapp"
                 className="px-4 py-2 bg-primary-500/20 border border-primary-500/30 text-text-primary font-medium rounded-lg transition-all duration-300 hover:bg-primary-500/30 shadow-glow-blue hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-primary-500/50"
                 target="_blank"

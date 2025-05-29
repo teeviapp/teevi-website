@@ -37,10 +37,10 @@ const Footer = () => {
             className="flex flex-wrap justify-center items-center gap-x-8 gap-y-4"
             aria-label="Link del footer">
             <FooterLink href="#guida">Guida</FooterLink>
+            <FooterLink href="#developer">Sviluppa</FooterLink>
             <FooterLink href="https://github.com/teeviapp" external>
               GitHub
             </FooterLink>
-            <FooterLink href="#privacy">Privacy</FooterLink>
           </nav>
         </div>
 
