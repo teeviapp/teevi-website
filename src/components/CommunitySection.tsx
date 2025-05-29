@@ -32,7 +32,7 @@ const CommunitySection = () => {
                   className="text-[#0088cc] inline-block"
                   size={24}
                 />
-                Entra nella community
+                Telegram
               </span>
             </TeeviButton>
           </div>

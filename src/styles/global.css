@@ -36,9 +36,9 @@
   --color-text-muted: rgb(255 255 255 / 0.6);
 
   /* Typography */
-  --font-family-sans: "Inter Variable", sans-serif;
-  --font-family-display: "Space Grotesk Variable", sans-serif;
-  --font-family-mono: "JetBrains Mono", monospace;
+  --font-sans: "Inter Variable", sans-serif;
+  --font-display: "Outfit Variable", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
 
   /* Shadows */
   --shadow-glow-purple: 0 0 20px rgb(157 78 221 / 0.3);
