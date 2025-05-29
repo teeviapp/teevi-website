@@ -62,7 +62,7 @@ const FeaturesSection = () => {
       icon: <PrivacyIcon className="w-6 h-6" />,
       title: "Protezione della Privacy",
       description:
-        "Teevi non sa nulla di ciò che fai. Goditi la massima sicurezza senza tracciamenti o raccolte dati: la tua privacy è la nostra priorità.",
+        "Goditi la massima sicurezza senza tracciamenti o raccolte dati: la tua privacy è la nostra priorità.",
     },
     {
       icon: <TrackingIcon className="w-6 h-6" />,
