@@ -105,6 +105,25 @@ export const PrivacyIcon: React.FC<IconProps> = ({
   </svg>
 )
 
+export const TelegramIcon: React.FC<IconProps> = ({
+  className = "",
+  size = 24,
+}) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round">
+    <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4" />
+  </svg>
+)
+
 export const TrackingIcon: React.FC<IconProps> = ({
   className = "",
   size = 24,

@@ -1,6 +1,9 @@
+import { TeeviButton } from "./Buttons"
+import { TelegramIcon } from "./Icons"
+
 const CommunitySection = () => {
   return (
-    <section id="telegram" className="py-20" aria-labelledby="community-title">
+    <section id="community" className="py-20" aria-labelledby="community-title">
       <div className="container mx-auto px-4 max-w-4xl text-center">
         <div className="bg-background-card backdrop-blur-md border border-primary-500/20 rounded-xl p-12 shadow-lg">
           <h2
@@ -15,24 +18,23 @@ const CommunitySection = () => {
 
           <p className="text-xl text-text-secondary mb-10 max-w-2xl mx-auto font-display leading-relaxed">
             Per supporto, suggerimenti e aggiornamenti, unisciti al nostro
-            canale <span className="text-accent-500">Telegram</span>.
+            canale Telegram.
           </p>
 
           <div className="flex justify-center mb-8">
-            <div className="relative group transition-transform duration-300 hover:scale-105">
-              <a
-                href="https://t.me/teevi"
-                className="inline-block px-8 py-4 bg-gradient-to-r from-primary-500 to-primary-600 text-white font-semibold rounded-2xl transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-primary-500/25 hover:from-primary-600 hover:to-primary-700 relative overflow-hidden group"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Unisciti al canale Telegram di Teevi (si apre in una nuova finestra)">
-                <div
-                  className="absolute inset-0 bg-gradient-to-r from-white/20 to-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                  aria-hidden="true"
+            <TeeviButton
+              href="https://t.me/teevi"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Unisciti al canale Telegram di Teevi (si apre in una nuova finestra)">
+              <span className="flex items-center gap-2">
+                <TelegramIcon
+                  className="text-[#0088cc] inline-block"
+                  size={24}
                 />
-                <span className="relative z-10">Unisciti al Telegram</span>
-              </a>
-            </div>
+                Entra nella community
+              </span>
+            </TeeviButton>
           </div>
 
           <p className="text-sm text-text-secondary/70 mt-4">

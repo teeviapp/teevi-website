@@ -53,16 +53,16 @@ const FeaturesSection = () => {
         "Sperimenta un'interfaccia fluida e moderna che si adatta perfettamente a ogni dispositivo, offrendoti la miglior esperienza possibile.",
     },
     {
-      icon: <PrivacyIcon className="w-6 h-6" />,
-      title: "Protezione della Privacy",
-      description:
-        "Teevi non sa nulla di ciò che fai. Goditi la massima sicurezza senza tracciamenti o raccolte dati: la tua privacy è la nostra priorità.",
-    },
-    {
       icon: <ExtensionsIcon className="w-6 h-6" />,
       title: "Estensioni",
       description:
         "Espandi le tue possibilità con estensioni personalizzate che aggiungono funzionalità extra, rendendo la tua esperienza su Teevi davvero unica.",
+    },
+    {
+      icon: <PrivacyIcon className="w-6 h-6" />,
+      title: "Protezione della Privacy",
+      description:
+        "Teevi non sa nulla di ciò che fai. Goditi la massima sicurezza senza tracciamenti o raccolte dati: la tua privacy è la nostra priorità.",
     },
     {
       icon: <TrackingIcon className="w-6 h-6" />,
@@ -75,18 +75,6 @@ const FeaturesSection = () => {
   return (
     <section className={`py-16`} aria-labelledby="features-title">
       <div className="container mx-auto px-4 max-w-6xl">
-        <div className="text-center mb-12">
-          <h2
-            id="features-title"
-            className="text-3xl md:text-4xl font-bold text-text-primary mb-4 font-display">
-            Funzionalità Innovative
-          </h2>
-          <p className="text-lg text-text-secondary max-w-2xl mx-auto">
-            Scopri le caratteristiche che rendono Teevi la scelta perfetta per
-            il tuo intrattenimento
-          </p>
-        </div>
-
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {features.map((feature) => (
             <FeatureCard key={feature.title} feature={feature} />

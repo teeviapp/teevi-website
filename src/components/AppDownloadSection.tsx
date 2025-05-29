@@ -14,10 +14,9 @@ const AppDownloadSection = () => {
           </h2>
 
           <p className="text-xl text-text-secondary mb-10 max-w-2xl mx-auto font-display leading-relaxed">
-            Prova in anteprima Teevi e scopri come l'intrattenimento su iOS può
-            essere
-            <span className="text-accent-500"> rivoluzionario</span>. Accedi
-            alla versione Beta tramite TestFlight.
+            Prova in anteprima Teevi e lasciati sorprendere da un nuovo modo di
+            vivere l’intrattenimento. Accedi alla versione Beta tramite
+            TestFlight.
           </p>
 
           <div className="flex justify-center mb-8">
@@ -41,9 +40,9 @@ const AppDownloadSection = () => {
           </div>
 
           <p className="text-sm text-text-secondary/70 mt-4">
-            Disponibile per iPhone, iPad e Mac con chip Apple Silicon.
+            Disponibile per iPhone, iPad e Mac.
             <br />
-            Richiede iOS 15 o superiore.
+            Richiede iOS 18/macOS 15 o superiore.
           </p>
         </div>
       </div>
