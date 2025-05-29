@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.tsx';
+import HeroSection from '../components/HeroSection.tsx';
+import FeaturesSection from '../components/FeaturesSection.tsx';
+import GuideSection from '../components/GuideSection.tsx';
+import CommunitySection from '../components/CommunitySection.tsx';
+import AppDownloadSection from '../components/AppDownloadSection.tsx';
+import Footer from '../components/Footer.tsx';
+---
+
+<Layout 
+  title="Teevi - Tutto il tuo intrattenimento, come l'hai sempre desiderato"
+  description="Trasforma il tuo iPhone in un cinema personale. Guarda i tuoi contenuti preferiti ovunque tu sia, con la massima qualità e il comfort della privacy."
+>
+  <Header />
+  
+  <main class="min-h-screen">
+    <HeroSection />
+    <FeaturesSection />
+    <GuideSection />
+    <CommunitySection />
+    <AppDownloadSection />
+  </main>
+  
+  <Footer />
+</Layout>
