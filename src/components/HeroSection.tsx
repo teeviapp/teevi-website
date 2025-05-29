@@ -1,4 +1,5 @@
 import { TeeviButton } from "./buttons"
+import teeviAppMockup from "../assets/images/teevi-app-showcase-ios.png?url"
 
 const HeroSection = () => {
   return (
@@ -47,15 +48,56 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Contenitore dell'immagine - occupa larghezza piena su mobile, metà su desktop */}
-          <div className="relative w-full lg:w-1/2">
-            <div className="absolute -inset-2 bg-gradient-to-r from-accent-500/20 to-primary-500/20 rounded-3xl blur-lg"></div>
-            <div className="relative flex justify-center overflow-hidden rounded-2xl shadow-glow-purple">
-              <img
-                src="/images/teevi-app-mockup.svg"
-                alt="Teevi App su iPhone e Mac"
-                className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700"
-              />
+          {/* Contenitore dell'immagine dell'app - mostrato dopo il testo su mobile, affiancato su desktop */}
+          <div className="lg:w-1/2 flex justify-center lg:justify-end items-center">
+            <div className="relative">
+              {/* Effetto glow sottile e statico attorno all'immagine */}
+              <div
+                className="absolute -inset-3 bg-gradient-to-r from-primary-500/20 to-accent-500/20 rounded-[2.5rem] blur-xl opacity-60"
+                aria-hidden="true"></div>
+
+              {/* Pattern decorativo dietro l'app per aggiungere profondità */}
+              <div
+                className="absolute -inset-8 z-0 opacity-20"
+                aria-hidden="true"
+                style={{
+                  backgroundImage:
+                    "radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px)",
+                  backgroundSize: "15px 15px",
+                }}></div>
+
+              {/* Contenitore dell'immagine con bordo e effetti */}
+              <div className="relative z-10 bg-background-card/80 backdrop-blur-xl border border-primary-500/40 rounded-[2rem] p-5 shadow-lg overflow-hidden">
+                {/* Piccoli elementi decorativi per simulare i controlli di un dispositivo */}
+                <div
+                  className="absolute top-2 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-white/20 rounded-full"
+                  aria-hidden="true"></div>
+
+                <img
+                  src={teeviAppMockup}
+                  alt="Teevi App su iPhone"
+                  className="w-auto h-auto max-h-[550px] drop-shadow-xl"
+                  width="300"
+                  height="600"
+                  loading="eager"
+                />
+
+                {/* Riflessi stilizzati sull'immagine per un aspetto premium */}
+                <div
+                  className="absolute top-0 left-0 right-0 h-1/4 bg-gradient-to-b from-white/10 to-transparent rounded-t-[2rem]"
+                  aria-hidden="true"></div>
+                <div
+                  className="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-primary-500/20 to-transparent rounded-b-[2rem]"
+                  aria-hidden="true"></div>
+              </div>
+
+              {/* Elementi decorativi per creare profondità */}
+              <div
+                className="absolute -bottom-6 -right-6 w-40 h-40 bg-accent-500/10 rounded-full blur-xl"
+                aria-hidden="true"></div>
+              <div
+                className="absolute -top-4 -left-4 w-20 h-20 bg-primary-500/10 rounded-full blur-xl"
+                aria-hidden="true"></div>
             </div>
           </div>
         </div>
