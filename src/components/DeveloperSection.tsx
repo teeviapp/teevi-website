@@ -60,6 +60,7 @@ const DeveloperSection = () => {
 
                 <div className="w-full flex justify-center sm:justify-start">
                   <TeeviButton
+                    kind="primary"
                     href="https://github.com/teeviapp/teevi-ts"
                     target="_blank"
                     rel="noopener noreferrer"

@@ -24,6 +24,7 @@ const CommunitySection = () => {
 
             <div className="flex justify-center mb-8">
               <TeeviButton
+                kind="primary"
                 href="https://telegram.org"
                 target="_blank"
                 rel="noopener noreferrer"
