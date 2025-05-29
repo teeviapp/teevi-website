@@ -1,4 +1,4 @@
-import { TeeviButton } from "./Buttons"
+import { TeeviButton } from "./buttons"
 
 const HeroSection = () => {
   return (
