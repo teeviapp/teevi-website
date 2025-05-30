@@ -50,25 +50,25 @@ const FeaturesSection = () => {
       icon: <ModernUIIcon className="w-6 h-6" />,
       title: "Interfaccia Nativa",
       description:
-        "Sperimenta un'interfaccia fluida e moderna che si adatta perfettamente a ogni dispositivo, offrendoti la miglior esperienza possibile.",
+        "Esplora un’interfaccia moderna, progettata per offrirti la massima fluidità su ogni dispositivo.",
     },
     {
       icon: <ExtensionsIcon className="w-6 h-6" />,
       title: "Estensioni",
       description:
-        "Espandi le tue possibilità con estensioni personalizzate che aggiungono funzionalità extra, rendendo la tua esperienza su Teevi davvero unica.",
+        "Personalizza Teevi con estensioni su misura e aggiungi funzionalità che rendono davvero tua l’esperienza.",
     },
     {
       icon: <PrivacyIcon className="w-6 h-6" />,
-      title: "Protezione della Privacy",
+      title: "Privacy garantita",
       description:
-        "Goditi la massima sicurezza senza tracciamenti o raccolte dati: la tua privacy è la nostra priorità.",
+        "Nessun tracciamento, nessuna raccolta dati: proteggiamo la tua privacy in ogni momento.",
     },
     {
       icon: <TrackingIcon className="w-6 h-6" />,
       title: "Tracciamento dei progressi",
       description:
-        "Monitora i tuoi progressi in modo intuitivo grazie a sistemi integrati che operano nel rispetto totale della tua privacy.",
+        "Tieni traccia dei tuoi progressi in modo semplice e riprendi da dove hai lasciato.",
     },
   ]
 
