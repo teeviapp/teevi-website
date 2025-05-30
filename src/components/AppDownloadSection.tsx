@@ -1,3 +1,5 @@
+import appStoreDownloadBadge from "../assets/images/app-store-badge.svg?url"
+
 const AppDownloadSection = () => {
   return (
     <section id="download" className="py-20" aria-labelledby="download-title">
@@ -29,7 +31,7 @@ const AppDownloadSection = () => {
                   className="inline-block"
                   aria-label="Scarica Teevi dall'App Store">
                   <img
-                    src="/app-store-badge.svg"
+                    src={appStoreDownloadBadge}
                     alt="Download on the App Store"
                     className="h-14 w-auto"
                   />
