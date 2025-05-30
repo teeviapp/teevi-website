@@ -36,11 +36,13 @@ const HeroSection = () => {
 
             <div className="flex flex-col sm:flex-row items-center lg:items-start gap-6 mb-16">
               <TeeviButton
+                kind="primary"
                 href="#download"
                 aria-label="Scarica la Beta di Teevi">
                 Scarica la Beta
               </TeeviButton>
               <TeeviButton
+                kind="primary"
                 href="#community"
                 aria-label="Vai alla sezione community">
                 Unisciti alla Community
