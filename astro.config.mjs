@@ -7,6 +7,7 @@ import tailwindcss from "@tailwindcss/vite"
 // https://astro.build/config
 export default defineConfig({
   site: "https://teeviapp.github.io",
+  base: "teevi-website",
   integrations: [
     react({
       include: ["**/react/*", "**/components/*"],
