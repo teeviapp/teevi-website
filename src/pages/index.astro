@@ -7,6 +7,7 @@ import GuideSection from '../components/GuideSection.tsx';
 import DeveloperSection from '../components/DeveloperSection.tsx';
 import CommunitySection from '../components/CommunitySection.tsx';
 import AppDownloadSection from '../components/AppDownloadSection.tsx';
+import FAQSection from '../components/FAQSection.tsx';
 import Footer from '../components/Footer.tsx';
 ---
 
@@ -19,9 +20,10 @@ import Footer from '../components/Footer.tsx';
     <HeroSection />
     <FeaturesSection />
     <AppDownloadSection />
-    <GuideSection />
     <CommunitySection />
+    <GuideSection />
     <DeveloperSection />
+    <FAQSection client:load />
   </main>
   <Footer />
 </Layout>
